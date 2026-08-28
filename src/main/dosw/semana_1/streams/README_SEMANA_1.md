@@ -38,6 +38,7 @@ public class Ejercicio1 {
     }
 }
 ```
+<img width="1078" height="236" alt="imagen" src="https://github.com/user-attachments/assets/6604ad01-789b-47a7-aa72-f3fac3f4e743" />
 
 
 **Explicación:** Se filtra con `filter()` verificando que el número sea mayor a 10 y divisible entre 2 en una sola condición.
@@ -76,6 +77,7 @@ public class Ejercicio2 {
     }
 }
 ```
+<img width="1071" height="223" alt="imagen" src="https://github.com/user-attachments/assets/f82d36b2-5da3-4ce3-9f69-0c1db24e2b59" />
 
 
 **Explicación:** Se encadenan `filter()`, `map()` con `String::toUpperCase` y `sorted()`; el tamaño de la lista resultante da la cantidad pedida.
@@ -118,6 +120,7 @@ public class Ejercicio3 {
     }
 }
 ```
+<img width="1064" height="220" alt="imagen" src="https://github.com/user-attachments/assets/852a2cb2-35de-4dbc-982c-53a75189d6db" />
 
 
 **Explicación:** Se usa `filter(User::isActive)`, luego `map()` para pasar a mayúsculas y `sorted()` para el orden alfabético.
@@ -158,6 +161,7 @@ public class Ejercicio4 {
     }
 }
 ```
+<img width="1081" height="256" alt="imagen" src="https://github.com/user-attachments/assets/59050af1-31d3-4aab-b913-989079e711c7" />
 
 
 **Explicación:** `filter()` valida la edad y `map(User::getName)` extrae el nombre de cada usuario resultante.
@@ -218,6 +222,7 @@ public class Ejercicio5 {
 }
 ```
 
+<img width="1075" height="365" alt="imagen" src="https://github.com/user-attachments/assets/e35b6845-d62b-4156-ae2d-b296be8a37d0" />
 
 **Explicación:** `peek()` imprime cada transacción a medida que el stream la procesa; `anyMatch()` corta apenas encuentra una transacción no aprobada.
 
