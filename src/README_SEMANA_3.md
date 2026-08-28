@@ -35,7 +35,8 @@ Sin patrones, el Checkout tendría un if/else gigante por cada medio de pago y o
 ```
 java -cp out dosw.semana_3.patrones.ejercicio01.Ejercicio01
 ```
-_(agregar aquí la captura de consola con la salida real)_
+<img width="1070" height="356" alt="Screenshot 2026-08-27 185052" src="https://github.com/user-attachments/assets/3244fc19-c733-40c3-bf97-c1e6bbb3905a" />
+
 
 ---
 ## Ejercicio #02 — Sistema de Notificaciones Multicanal
@@ -58,7 +59,8 @@ Sin patrones, el Pedido tendría que conocer y llamar directamente a EmailServic
 ```
 java -cp out dosw.semana_3.patrones.ejercicio02.Ejercicio02
 ```
-_(agregar aquí la captura de consola con la salida real)_
+<img width="1048" height="330" alt="Screenshot 2026-08-27 185134" src="https://github.com/user-attachments/assets/0b134db4-504a-4b72-9037-f0f547ff5ec4" />
+
 
 ---
 ## Ejercicio #03 — Sistema de Reportes Empresariales
@@ -81,7 +83,8 @@ Sin patrones, cada tipo de reporte reimplementaría los 4 pasos completos (obten
 ```
 java -cp out dosw.semana_3.patrones.ejercicio03.Ejercicio03
 ```
-_(agregar aquí la captura de consola con la salida real)_
+<img width="1089" height="493" alt="Screenshot 2026-08-27 185244" src="https://github.com/user-attachments/assets/02e3fdad-58e5-44ee-9ece-a608f56f88db" />
+
 
 ---
 ## Ejercicio #04 — Plataforma de Videojuegos — Personajes
@@ -104,7 +107,8 @@ Sin patrones, cada combinación de poderes (escudo+velocidad, velocidad+invisibi
 ```
 java -cp out dosw.semana_3.patrones.ejercicio04.Ejercicio04
 ```
-_(agregar aquí la captura de consola con la salida real)_
+<img width="1079" height="265" alt="Screenshot 2026-08-27 185303" src="https://github.com/user-attachments/assets/c1bbd9ba-a8c2-4c98-affd-4024ee61d354" />
+
 
 ---
 ## Ejercicio #05 — Integración con Sistema Bancario Antiguo
@@ -127,7 +131,9 @@ Sin patrones, cada desarrollador tendría que conocer los 8 pasos de inicializac
 ```
 java -cp out dosw.semana_3.patrones.ejercicio05.Ejercicio05
 ```
-_(agregar aquí la captura de consola con la salida real)_
+<img width="1069" height="284" alt="Screenshot 2026-08-27 185319" src="https://github.com/user-attachments/assets/12feb995-ff7a-46a4-ad1f-8b9205f17c99" />
+
+
 
 ---
 ## Ejercicio #06 — Motor de Recomendaciones
@@ -150,7 +156,8 @@ Sin patrones, el motor de recomendaciones tendría un switch gigante por algorit
 ```
 java -cp out dosw.semana_3.patrones.ejercicio06.Ejercicio06
 ```
-_(agregar aquí la captura de consola con la salida real)_
+<img width="1069" height="284" alt="Screenshot 2026-08-27 185319" src="https://github.com/user-attachments/assets/f4d844c7-7bf3-4849-b1c2-d12ab1a97421" />
+
 
 ---
 ## Ejercicio #07 — Flujo de Aprobación de Documentos
@@ -173,7 +180,8 @@ Sin patrones, el documento tendría un atributo `estado` de tipo String y cada m
 ```
 java -cp out dosw.semana_3.patrones.ejercicio07.Ejercicio07
 ```
-_(agregar aquí la captura de consola con la salida real)_
+<img width="1077" height="545" alt="Screenshot 2026-08-27 185355" src="https://github.com/user-attachments/assets/42d03b35-d3c7-4a25-a126-25eb2bd99c9c" />
+
 
 ---
 ## Ejercicio #08 — Sistema de Pedidos en Restaurante
@@ -196,7 +204,8 @@ Sin patrones, el pedido se armaría con un constructor de 10+ parámetros (tama�
 ```
 java -cp out dosw.semana_3.patrones.ejercicio08.Ejercicio08
 ```
-_(agregar aquí la captura de consola con la salida real)_
+<img width="1088" height="289" alt="Screenshot 2026-08-27 185412" src="https://github.com/user-attachments/assets/bea1c231-32a5-47ed-81b8-f745e32750b9" />
+
 
 ---
 ## Ejercicio #09 — Sistema de Autenticación Empresarial
@@ -219,7 +228,8 @@ Sin patrones, `AuthService` tendría un switch para elegir el mecanismo de login
 ```
 java -cp out dosw.semana_3.patrones.ejercicio09.Ejercicio09
 ```
-_(agregar aquí la captura de consola con la salida real)_
+<img width="1066" height="802" alt="Screenshot 2026-08-27 185435" src="https://github.com/user-attachments/assets/f0a6b1b2-da94-4655-a338-087b55699de2" />
+
 
 ---
 ## Ejercicio #10 — Aplicación de Edición de Imágenes
@@ -242,18 +252,7 @@ Sin patrones, cada combinación de filtros (b/n+sepia, sepia+contraste, los 5 ju
 ```
 java -cp out dosw.semana_3.patrones.ejercicio10.Ejercicio10
 ```
-_(agregar aquí la captura de consola con la salida real)_
+<img width="1082" height="391" alt="Screenshot 2026-08-27 185500" src="https://github.com/user-attachments/assets/91fe0fb6-71ca-4e9d-89e0-8512d25edb22" />
+
 
 ---
-
-
-## Cómo compilar y ejecutar
-
-```bash
-javac -d out $(find src -name "*.java")
-java -cp out dosw.semana_3.patrones.ejercicio01.Ejercicio01
-# reemplazar ejercicio01/Ejercicio01 por el ejercicio deseado (01 a 10)
-```
-
-Los 10 ejercicios fueron compilados y ejecutados para verificar que el código es
-funcional antes de la entrega.
